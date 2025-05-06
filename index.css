@@ -105,6 +105,7 @@ input[type="email"]::placeholder{
     background-repeat: no-repeat;
     margin-top: 4rem;
     flex: 1 1 30%;
+    height: 50%;
   }
   .right-background img{
     object-fit: cover;
