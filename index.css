@@ -91,3 +91,53 @@ input[type="email"]::placeholder{
   max-width: 100%;
   object-fit: cover;
 }
+@media (max-width : 768px){
+  .main{
+    flex-direction: column-reverse;
+    overflow: none;
+    height: auto;
+    position: relative;
+    width: 100vw;
+  }
+  .right-background{
+    background-image: url("./images/hero-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    flex: 1 1 30%;
+  }
+  .right-background img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
+  .header{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    left: 0;
+  }
+  .content{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+  }
+  h1{
+    text-align: center;
+  }
+  .description{
+    text-align: center;
+    font-size: 1rem;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow-button{
+    left: 230px;
+    width: 80px;
+  }
+}
