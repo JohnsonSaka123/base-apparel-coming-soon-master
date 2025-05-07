@@ -91,6 +91,34 @@ input[type="email"]::placeholder{
   max-width: 100%;
   object-fit: cover;
 }
+.error-msg{
+  color: hsl(0, 93%, 68%);
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  display: block;
+}
+input.error{
+  border-color: hsl(0, 93%, 68%);
+  background-color: #ffe6e6;
+}
+.input-wrapper{
+  position: relative;
+  width: 100%;
+}
+.error-icon{
+  position: absolute;
+  top: 50%;
+  right: 180px;
+  height: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  display: none;
+}
+input.error~.error-icon {
+  display: block;
+  /* Show icon when input is invalid */
+}
 @media (max-width : 768px){
   .main{
     flex-direction: column-reverse;

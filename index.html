@@ -31,12 +31,16 @@
           </p>
 
           <form action="#" class="email-form" novalidate>
-            <input type="email" name="" id="email" placeholder="Email Address">
+            <div class="input-wrapper">
+              <input type="email" name="" id="email" placeholder="Email Address">
+              <img src="./images/icon-error.svg" alt="error icon" id="error-icon" class="error-icon">
+            </div>
             <button class="arrow-button" type="submit">
               <img src="./images/icon-arrow.svg" alt="arrow-next">
             </button>
+            
           </form>
-        
+          <span id="error-msg" class="error-msg"></span>
       
     </div>
 
@@ -58,4 +62,5 @@
     </p>
   </footer>-->
 </body>
+<script src="./index.js"></script>
 </html>
