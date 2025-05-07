@@ -39,4 +39,6 @@ EmailForm.addEventListener("submit" , (e) => {
     errorIcon.style.display = "none";
     emailInput.value = "";
   }
-})
+
+  
+});

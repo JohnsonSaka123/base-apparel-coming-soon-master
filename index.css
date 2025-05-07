@@ -166,7 +166,16 @@ input.error~.error-icon {
     align-items: center;
   }
   .arrow-button{
-    left: 230px;
+    left: 200px;
     width: 80px;
+  }
+  .error-msg{
+    margin-left: 10px;
+  }
+  .error-icon{
+    right: 126px;
+  }
+  .input-wrapper{
+    max-width : 100%;
   }
 }
